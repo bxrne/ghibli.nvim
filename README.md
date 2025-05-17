@@ -1,6 +1,6 @@
 # 🌱 Ghibli.nvim
 
-A whimsical Neovim color scheme inspired by the magical worlds of Studio Ghibli films, featuring warm parchment tones, soft blue accents, and the iconic Ghibli aesthetic.
+A fork of [patil-suraj/ghibli.nvim](https://github.com/patil-suraj/ghibli.nvim) with a focus on a light theme and a more vibrant color palette for integrations like bufferline, lualine.
  
 ![Ghibli.nvim Theme](./demo/ghibli-nvim.png)
 
@@ -20,7 +20,7 @@ A whimsical Neovim color scheme inspired by the magical worlds of Studio Ghibli 
 
 ```lua
 use {
-  'patil-suraj/ghibli.nvim',
+  'bxrne/ghibli.nvim',
   config = function()
     -- Setup with options (optional)
     require('ghibli').setup({
@@ -37,7 +37,7 @@ use {
 
 ```lua
 {
-  'patil-suraj/ghibli.nvim',
+  'bxrne/ghibli.nvim',
   lazy = false, -- make sure we load this during startup
   priority = 1000, -- load before other plugins
   config = function()
@@ -54,7 +54,7 @@ use {
 ### Using [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```vim
-Plug 'patil-suraj/ghibli.nvim'
+Plug 'bxrne/ghibli.nvim'
 ```
 
 After installation with vim-plug, add to your init.vim:
