@@ -1,8 +1,7 @@
 # 🌱 Ghibli.nvim
 
-A fork of [patil-suraj/ghibli.nvim](https://github.com/patil-suraj/ghibli.nvim) with a focus on a light theme and a more vibrant color palette for integrations like bufferline, lualine.
+A fork of [patil-suraj/ghibli.nvim](https://github.com/patil-suraj/ghibli.nvim) just adjusted for my preferences.
  
-![Ghibli.nvim Theme](./demo/ghibli-nvim.png)
 
 ## ✨ Features
 
